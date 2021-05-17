@@ -17,6 +17,7 @@ def pack_data(context, initiate):
                 psys.settings.mol_density = float(psys.settings.mol_matter)
             if psys.settings.mol_active and len(psys.particles):
                 parlen = len(psys.particles)
+                # print(psys)
                 par_loc = [0, 0, 0] * parlen
                 par_vel = [0, 0, 0] * parlen
                 par_size = [0] * parlen
