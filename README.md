@@ -1,31 +1,39 @@
-![Molecular Addon for Blender](https://github.com/scorpion81/Blender-Molecular-Script/workflows/Molecular%20Addon%20for%20Blender/badge.svg)
+# Blender-Molecular-Script
 
-Blender-Molecular-Script
-========================
+This is my molecular python script for blender. Forked from [scorpion81/Blender-Molecular-Script](https://github.com/scorpion81/Blender-Molecular-Script)
 
-This is my molecular python script for blender. Inspired from the 2d simulator Really (1998) and Lagoa Multiphysic in Softimage.
+## Prepare 
 
-To download the latest version go on my blog:
+Make sure to use python version 3.7.4, or run directly with python in the blender directory.
 
-http://pyroevil.com/molecular-script-download/
+* Run `python make_release.py`, then you might see a `.zip` file.
+<br /><br />
 
-The script can be installed like any other addons in Blender:
-First way:
-- unzip the folder "molecular" in your "x.xx\scripts\addons" blender directory
+## Installation
 
-or
+### GUI Usage
 
-Second Way:
-- Open Blender
-- Go in File > User Preferences > Addons tab
-- Click on "Install from file" button.
-- Browse and click the downloaded zip file and push the "Install from file..." button.
-
-To activate the plugins:
-- Open Blender
-- Go in File > User Preferences > Addons tab
-- In the "Object" categories, you must find "Molecular"
-- Check it , close the "Blender user preferences" windows and have fun.
+* Inside Blender, go to `Edit` -> `Preferences...` -> `Add-ons` -> `Install...` and select the `.zip` file. 
 
 
-Visit my blog about this script for donation, comments or more detail : http://pyroevil.com
+### Script Usage via Adding Module Search Path
+
+1. Unzip the `.zip` file.
+2. ```python
+    import sys
+    sys.path.append("<module path>")
+    import molecular
+` 
+
+
+### Script Usage via Copy Module to `addons_contrib`
+
+1. Unzip the `.zip` file.
+2. Copy the `molecular` folder to `C:\Program Files\Blender Foundation\Blender 2.83\2.83\scripts\addons_contrib` (Windows).
+
+*WARNING*: *DO NOT* install the addon via both ways or the two versions are mixed up and cause errors. 
+
+<br /><br />
+
+
+

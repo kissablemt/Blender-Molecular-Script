@@ -40,6 +40,7 @@ def register():
     import bpy
 
     from . import properties, ui, operators
+    from . import mol_simulator
 
     properties.define_props()
     bpy.utils.register_class(operators.MolSimulateModal)
