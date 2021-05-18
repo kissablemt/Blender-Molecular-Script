@@ -4,7 +4,7 @@ This is my molecular python script for blender. Forked from [scorpion81/Blender-
 
 ## Prepare 
 
-Make sure to use python version 3.7.4, or run directly with python in the blender directory.
+Make sure to use python version 3.7.*, or run directly with python in the blender directory.
 
 * Run `python make_release.py`, then you might see a `.zip` file.
 <br /><br />
