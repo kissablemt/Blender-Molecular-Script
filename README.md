@@ -34,5 +34,7 @@ Make sure to use python version 3.7.4, or run directly with python in the blende
 
 <br /><br />
 
-
-
+## Demo
+1. Modify the module search path in the `molecular_script.py`
+2. Run `blender -P molecular_script.py`
+<br /><br />
