@@ -23,7 +23,6 @@ Make sure to use python version 3.7.4, or run directly with python in the blende
     import sys
     sys.path.append("<module path>")
     import molecular
-` 
 
 
 ### Script Usage via Copy Module to `addons_contrib`
