@@ -33,7 +33,6 @@ Make sure to use python version 3.7.4, or run directly with python in the blende
 *WARNING*: *DO NOT* install the addon via both ways or the two versions are mixed up and cause errors. 
 
 <br /><br />
-
 ## Demo
 1. Modify the module search path in the `molecular_script.py`
 2. Run `blender -P molecular_script.py`
